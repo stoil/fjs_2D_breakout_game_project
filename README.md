@@ -1,7 +1,7 @@
 # 2D_breakout_game_project
 Frontend JavaScript Project Assignment
 
-## 2D BREAKOUT GAME PROJECT SPECIFICATIONS LIST
+#### 2D BREAKOUT GAME PROJECT SPECIFICATIONS LIST
 
 1. Landing page/window
   1. Show settings options
@@ -27,7 +27,7 @@ Frontend JavaScript Project Assignment
 5. Ranglist popup form
 6. Ranglist page/window (It should lists the best 10 players in each Difficulty level. The Ranglist should be sorted by score)
 
-## PROJECT ARCHITECTURE SUGGESTION
+#### PROJECT ARCHITECTURE SUGGESTION
 
 1. UI Structure:
 ![UI Structure Image](BreakOutUIFrameWork.jpg)
@@ -41,3 +41,11 @@ Frontend JavaScript Project Assignment
     1. main.css
   3. index.html
   ![File Structure Image](BreakOutFileStructure.jpg)
+
+  #### TASKS ASSIGNMENTS SUGGESTION
+
+  VERA MANOVA       -> CONFIGS.js / CLASSES.js
+  RAYA FOTEVA       -> LEVELS.js / CLASSES.js
+  STOIL KOSTADINOV  -> UI (GAME SCREENS/SETTINGS/LOCAL STORAGE)
+  DESISLAVA PETKOVA -> BREAKOUT.js
+  DENISLAV VEIZOV   -> BREAKOUT.js
