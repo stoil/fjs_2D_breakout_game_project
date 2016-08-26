@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Breakout Game Project</title>
+        <link rel='stylesheet' type='text/css' href='js/spectrum-colorpicker/spectrum.css'>
+        <link rel='stylesheet' type='text/css' href='css/main.css'>
+    </head>
+    <body>
+        <section id='wrapper'>
+            <section id="contentContainer">
+                <!-- <div class="loader">
+                    Loading
+                </div> -->
+                <form id='settingsForm' action='' method='post'>
+                    <div class='form-row difficulty-level'>
+                        <label for="difficultyLevel">Difficulty Level</label>
+                        <select class='dropdown' id='difficultyLevel' name='difficultyLevel'>
+                            <option value='easy' selected>Easy</option>
+                            <option value='medium'>Medium</option>
+                            <option value='hard'>Hard</option>
+                        </select>
+                    </div>
+                    <div class='form-row game-size'>
+                        <label for="gameSize">Game Size</label>
+                        <select class='dropdown' id='gameSize' name='gameSize'>
+                            <option value='fullscreen' selected>Fullscreen</option>
+                            <option value='small-frame'>Small Frame</option>
+                            <option value='large-frame'>Large Frame</option>
+                        </select>
+                    </div>
+                    <div class='form-row colorpicker'>
+                        <div class='colorpicker-item'>
+                            <label for='paddleColor'>Paddle Color</label>
+                            <input type='color' name='paddleColor' id='paddleColor' value='#000000'/>
+                        </div>
+                        <div class='colorpicker-item'>
+                            <label for='ballColor'>Ball Color</label>
+                            <input type='color' name='ballColor' id='ballColor' value='#000000' />
+                        </div>
+                    </div>
+                    <input type='submit' name='button' value='submit'>
+                </form>
+            </section>
+        </section>
+        <script type='text/javascript' src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+        <script type='text/javascript' src='js/spectrum-colorpicker/spectrum.js'></script>
+        <script type="text/javascript" src="js/configs.js"></script>
+        <script type="text/javascript" src="js/elements-classes.js"></script>
+        <script type="text/javascript" src="js/levels.js"></script>
+        <script type="text/javascript" src="js/breakout.js"></script>
+        <script type='text/javascript' src="js/main.js"></script>
+    </body>
+</html>
