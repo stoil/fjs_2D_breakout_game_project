@@ -1,3 +1,3 @@
 $(function() {
-    settings.init();
+    SETTINGS.init();
 });

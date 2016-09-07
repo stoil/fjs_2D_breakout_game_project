@@ -1,5 +1,5 @@
 'use strict';
-let settings = (function() {
+let SETTINGS = (function() {
     // Initial Settings Data Object
     let settingsData = {
         paddleColor:     '#000000',
@@ -57,7 +57,7 @@ let settings = (function() {
             canvasSize:      $canvasSize.val()
         };
         localStorage.setItem('breakOutSettings', JSON.stringify(settingsData)); // Save generated breakOutSettings object in localStorage
-        pageActions.getPage('gameplay.html');
+        PAGEACTIONS.getPage('gameplay.html');
     }
 
     /**
@@ -145,7 +145,7 @@ let settings = (function() {
     };
 })();
 
-let pageActions = (function() {
+let PAGEACTIONS = (function() {
     // Caching the DOM
     let $wrapper          = $('#wrapper'),
         $contentContainer = $wrapper.find('#contentContainer'),
@@ -183,7 +183,7 @@ let pageActions = (function() {
             },
             complete: function() { // When ajax request is done update the browser url
                 if (this.url == '/') {
-                    settings.init();
+                    SETTINGS.init();
                 }
                 updateBrowserUrl(this.url);
             }
